@@ -1,0 +1,27 @@
+* {
+  font-family: "Lato", "Open Sans", sans-serif;
+}
+
+$text-size: 20px;
+
+$color-white: rgba(255, 255, 255, 1);
+
+$color-green: rgba(78, 205, 196, 1);
+
+$space-words: 20px;
+
+.type-4 {
+  margin-top: 30px;
+  .title {
+      margin-bottom: 20px;
+  }
+  .fa-check-circle, .fa-times-circle{
+      margin-right: 10px;
+  }
+  .unActive{
+      color: #999
+  }
+  .col-lg-4.col-md-6{
+      padding: 5px 0;
+  }
+}

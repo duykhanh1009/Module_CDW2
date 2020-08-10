@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../font/Poppins-Light.ttf);
+}
+
+$text-size: 20px;
+
+$color-white: rgba(255, 255, 255, 1);
+
+$color-green: rgba(78, 205, 196, 1);
+
+$space-words: 20px;
+
+.type-38 {
+  font-family: "Poppins-Regular";
+  .nav-tabs {
+    border-bottom: 1px solid #75b08a;
+    padding: 0 20px;
+  }
+  .nav-tabs .nav-link.active {
+    border: 1px solid #75b08a;
+    border-bottom: #fff 1px solid;
+    color: #75b08a !important;
+  }
+  .nav-link {
+    color: #75b08a;
+  }
+  .labelRequired {
+    margin-bottom: 0 !important;
+  }
+  .tab-content {
+    padding: 5px 20px;
+  }
+  .captcha {
+    margin-top: 50px;
+  }
+  legend {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+  }
+  .btnLogin {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .login{
+      text-align: center;
+  }
+  .btnLogin:hover{
+      background-color: #efefef;
+  }
+}

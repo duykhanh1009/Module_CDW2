@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../font/Poppins-Regular.ttf); }
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../font/Poppins-Light.ttf); }
+
+.type-38 {
+  font-family: "Poppins-Regular"; }
+  .type-38 .nav-tabs {
+    border-bottom: 1px solid #75b08a;
+    padding: 0 20px; }
+  .type-38 .nav-tabs .nav-link.active {
+    border: 1px solid #75b08a;
+    border-bottom: #fff 1px solid;
+    color: #75b08a !important; }
+  .type-38 .nav-link {
+    color: #75b08a; }
+  .type-38 .labelRequired {
+    margin-bottom: 0 !important; }
+  .type-38 .tab-content {
+    padding: 5px 20px; }
+  .type-38 .captcha {
+    margin-top: 50px; }
+  .type-38 legend {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px; }
+  .type-38 .btnLogin {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer; }
+  .type-38 .login {
+    text-align: center; }
+  .type-38 .btnLogin:hover {
+    background-color: #efefef; }

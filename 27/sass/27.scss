@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../font/Poppins-Light.ttf);
+}
+
+$text-size: 20px;
+
+$color-white: rgba(255, 255, 255, 1);
+
+$color-green: rgba(78, 205, 196, 1);
+
+$space-words: 20px;
+
+.type-27 {
+    background-color: #6fa783;
+    padding: 20px 0;
+  .searchArea {
+    background-color: white;
+    padding: 30px 20px;
+    // display: flex;
+  }
+  .searchProperty {
+    text-transform: uppercase;
+    background-color: #f0e797;
+    color: #bdb254;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .searchProperty:hover {
+    background-color: #75b08a;
+    color: white;
+    cursor: pointer;
+  }
+  .label-select::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0 4px 4px 0;
+    pointer-events: none;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .label-select::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    line-height: 1;
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+    pointer-events: none;
+    z-index: 11;
+  }
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+  }
+  .form-control {
+    height: 50px !important;
+  }
+  .range {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .range label{
+      width: 100%;
+  }
+  .range input{
+      cursor: pointer;
+  }
+}

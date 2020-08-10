@@ -1,0 +1,40 @@
+.recent-properties-inner {
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+  font-size: 36px; }
+
+.h3 {
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-style: normal; }
+
+.property-featured img {
+  width: 50%; }
+
+.img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0 none; }
+
+.property-category {
+  background: rgba(117, 176, 138, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 30px;
+  font-size: 32px;
+  box-sizing: border-box; }
+
+.caroufredsel-wrap {
+  list-style: none; }
+
+.property-wrap {
+  display: table-cell;
+  width: 45%;
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box; }
